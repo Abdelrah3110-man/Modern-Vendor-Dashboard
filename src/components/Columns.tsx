@@ -25,12 +25,12 @@ type VendorCategories =
   | 'Legal';
 
 export type Vendor = {
-  src: String;
-  name: String;
-  website: String;
-  rating: Number;
-  ratingGrowthPercent: Number;
-  lastAssessed: String;
+  src: string;
+  name: string;
+  website: string;
+  rating: number;
+  ratingGrowthPercent: number;
+  lastAssessed: string;
   categories: VendorCategories[];
 };
 

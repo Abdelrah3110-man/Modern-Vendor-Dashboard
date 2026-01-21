@@ -15,7 +15,6 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 import { EllipsisVerticalIcon } from 'lucide-react';
-import { Children } from 'react';
 import { Button } from './ui/button';
 
 type Props = {
